@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "bv") (type "KiCad") (uri "${KIPRJMOD}/libs/bv_kicad_libs/bv.kicad_symdir") (options "") (descr ""))
+)
