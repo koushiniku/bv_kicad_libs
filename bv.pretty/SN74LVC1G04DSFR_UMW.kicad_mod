@@ -1,0 +1,187 @@
+(footprint "SN74LVC1G04DSFR_UMW"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DFN-6(1x1) Inverters ROHS")
+	(tags "C42165060 SN74LVC1G04DSFR(UMW) UDFN-6_L1.0-W1.0-P0.35-BL UMW(Youtai Semiconductor Co., Ltd.)")
+	(property "Reference" "REF**"
+		(at 0 -1.1 0)
+		(layer "F.SilkS")
+		(uuid "ba0d7418-b9c4-47a2-86b6-e7fdeb7d8ebb")
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3d86c21f-d816-4024-84e8-11b69aaafd76")
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C42165060.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04c42280-dc96-4ae0-87f6-35d8bd706a5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DFN-6(1x1) Inverters ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59e82583-13cd-4c0a-ad61-bff6b7f0753f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C42165060"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77281416-4677-47e0-9584-210a6851925d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.625 -0.725)
+		(end -0.625 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2920fdac-0ff6-4435-9909-dd878e2f7bae")
+	)
+	(fp_line
+		(start -0.625 -0.725)
+		(end 0.625 -0.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d384d9e-4966-4486-b547-a058362913b8")
+	)
+	(fp_line
+		(start -0.4 0.725)
+		(end 0.625 0.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98bc1722-486b-4556-9bc9-76f0ec4402c5")
+	)
+	(fp_line
+		(start 0.625 -0.725)
+		(end 0.625 0.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77f3a874-5654-4215-917d-c9bc76c2376e")
+	)
+	(fp_circle
+		(center -0.6 0.7)
+		(end -0.575 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a840723e-f159-4268-bbc8-9bf3c53ffaed")
+	)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "77340c65-6809-410e-8037-38b56b987ade")
+	)
+	(fp_circle
+		(center -0.45 0.5)
+		(end -0.35 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "59bbe844-30d7-446a-925f-5352271d751b")
+	)
+	(pad "1" smd rect
+		(at -0.35 0.305 90)
+		(size 0.45 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da89be13-2c5d-443d-a538-cb6a16d2ddea")
+	)
+	(pad "2" smd rect
+		(at 0 0.33 90)
+		(size 0.4 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b991a7aa-c544-48f2-8303-823d7d06b6ae")
+	)
+	(pad "3" smd rect
+		(at 0.35 0.33 90)
+		(size 0.4 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7be18979-c03e-42ba-85ce-c22b71fb1aea")
+	)
+	(pad "4" smd rect
+		(at 0.35 -0.33 90)
+		(size 0.4 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ebe59799-1329-4ed0-8234-37428dcd4980")
+	)
+	(pad "5" smd rect
+		(at 0 -0.33 90)
+		(size 0.4 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3845c218-bc13-4e48-a2a3-ed6f2385ea5a")
+	)
+	(pad "6" smd rect
+		(at -0.35 -0.33 90)
+		(size 0.4 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "203b47f7-9e53-4466-b5d2-d696df97df86")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/SN74LVC1G04DSFR_UMW.wrl"
+		(offset
+			(xyz 0 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

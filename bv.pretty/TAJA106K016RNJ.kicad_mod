@@ -1,0 +1,209 @@
+(footprint "TAJA106K016RNJ"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-55℃~+125℃ 10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS")
+	(tags "-- C7171 CAP-SMD_L3.2-W1.6-RD-C7171 TAJA106K016RNJ")
+	(property "Reference" "REF**"
+		(at 0 -1.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "005cb0b8-abba-44ba-8186-0d16595ca365")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cc5796c4-82df-4848-9c4a-df48aea48aca")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4583b512-fffc-445d-b5a4-75b9bd714cbe")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "-55℃~+125℃ 10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fcb78bf-c9ef-4d9f-873a-d7f55ba23669")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C7171"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b4b6ffa-773a-426e-b0f4-7699a2ecd801")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.65 -0.95)
+		(end -1.45 -0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eeeed93c-34ff-44c6-a181-28218fdf6304")
+	)
+	(fp_line
+		(start -1.65 0.85)
+		(end 1.65 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53de07c6-cbef-49c3-93c4-94048c1278bd")
+	)
+	(fp_line
+		(start -1.55 -1.05)
+		(end -1.55 -0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "87e9bf20-6b21-46a9-9f51-b56feffa3770")
+	)
+	(fp_line
+		(start -1.4 -0.85)
+		(end 1.65 -0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94caa2c6-072e-47d4-bce1-0d787141f862")
+	)
+	(fp_line
+		(start -0.55 -0.85)
+		(end -0.55 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1262de01-699e-4652-aafa-0beb18c742d3")
+	)
+	(fp_rect
+		(start -1.85 -1.05)
+		(end 1.85 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "afe9e169-c5f0-4c17-8837-8985bc0411d8")
+	)
+	(fp_line
+		(start -0.7 -0.8)
+		(end -0.7 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5d61ffba-9cdd-42ea-89e7-1e4deef5973e")
+	)
+	(fp_line
+		(start -0.6 -0.35)
+		(end -0.4 -0.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b224ddc5-c4f2-4a1d-90df-5beaace7d252")
+	)
+	(fp_line
+		(start -0.5 -0.45)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "331eac97-fca6-454d-a630-fe10f3fceef6")
+	)
+	(fp_line
+		(start 0.5 -0.35)
+		(end 0.7 -0.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "83604c54-6b7f-46e6-8e09-bbdb8726051c")
+	)
+	(fp_rect
+		(start -1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1e50a932-01b2-4419-a300-941594e5d126")
+	)
+	(pad "1" smd rect
+		(at -1.53 0 180)
+		(size 1.53 1.296)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0a2ebd3-0952-40aa-baf3-fe9a89fd5192")
+	)
+	(pad "2" smd rect
+		(at 1.53 0 180)
+		(size 1.53 1.296)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "080d1e00-1bb0-40b0-a5c8-d2865b024fad")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/TAJA106K016RNJ.wrl"
+		(offset
+			(xyz 0 0 0.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,132 @@
+(footprint "CL05B104KO5NNNC"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
+	(tags "C0402 C1525 CL05B104KO5NNNC Samsung Electro-Mechanics")
+	(property "Reference" "REF**"
+		(at 0 -0.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c39d76fe-b21d-411e-abe1-320039f4b5aa")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 0 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7068623b-b1c6-4915-84d4-8d547c3a7b26")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1934c69-6195-416d-8cd1-844af3a7c9c2")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64dcc01c-5035-46bc-99b7-f67118f0ea7d")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C1525"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "387f2d11-25a0-441d-b0e8-6c0b7b63c9ab")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.95 -0.5)
+		(end 0.95 0.5)
+		(radius 0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "93af11ea-fbf9-4cf0-84ce-2390b3d08aa3")
+	)
+	(fp_rect
+		(start -0.75 -0.5)
+		(end 0.75 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9c11092d-a480-4f19-ba23-ab0e853fdeb2")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(radius 0.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "63a9ee59-2af8-48fa-835a-3420fb795322")
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e39a9cae-4f41-413d-959d-168be4d23b41")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d90694f4-b5ee-4a3d-95ba-cf3641ea0d02")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/CL05B104KO5NNNC.wrl"
+		(offset
+			(xyz 0 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

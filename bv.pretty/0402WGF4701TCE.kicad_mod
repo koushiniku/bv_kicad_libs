@@ -1,0 +1,130 @@
+(footprint "0402WGF4701TCE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS")
+	(tags "0402WGF4701TCE C25900 R0402 UNI-ROYAL(Uniroyal Elec)")
+	(property "Reference" "REF**"
+		(at 0 -0.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1ac77a6b-8763-4c32-a879-553e9a8aeede")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 0 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "48962e6b-00f1-48ad-a328-dff5c1fbcabf")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6698630-c9c6-4bcf-b261-371db4beaad6")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac0e6388-d273-49b7-b779-358b85f92eba")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C25900"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21a9ac98-f123-4685-b476-a4aa0d165ce3")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.95 -0.5)
+		(end 0.95 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f7900342-abd0-46d4-aa79-a0c59cce697a")
+	)
+	(fp_rect
+		(start -0.75 -0.5)
+		(end 0.75 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3a02c289-b356-4a4f-a4d4-5e65d6fa0a6f")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c8ca6d3d-bd29-4fdb-8f2b-cc34f6c2a9db")
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "01df9667-5e16-4827-bfd0-ce2cbe25339b")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e2694556-b586-49c9-acd0-c34f09a958b0")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/0402WGF4701TCE.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

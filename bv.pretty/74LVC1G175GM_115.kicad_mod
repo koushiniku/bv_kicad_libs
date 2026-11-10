@@ -1,0 +1,215 @@
+(footprint "74LVC1G175GM_115"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+125℃ 1 1 1.1ns 1.65V~5.5V 2.2ns@4.5V,50pF 2.5pF 200MHz 24mA 24mA 4uA 500ps 74LVC Series Asynchronous D-Type Reset Rising Edge XSON-6(1x1.5) Flip Flops ROHS")
+	(tags "74LVC1G175GM,115 C548286 Nexperia XSON-6_L1.5-W1.0-P0.50-BL")
+	(property "Reference" "REF**"
+		(at 0 -1.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "41c19801-dff1-46de-b04b-90544518aba3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 0 1.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3aa00e7e-d392-493b-b59e-494f69084d24")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241040_Nexperia-74LVC1G175GM-115_C548286.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f99cc100-bc9b-4a29-9ae1-b990a6e8675a")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "-40℃~+125℃ 1 1 1.1ns 1.65V~5.5V 2.2ns@4.5V,50pF 2.5pF 200MHz 24mA 24mA 4uA 500ps 74LVC Series Asynchronous D-Type Reset Rising Edge XSON-6(1x1.5) Flip Flops ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73abedb3-ba3d-4410-81c3-b25aad013134")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C548286"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "200cbfa9-c6d6-4fb4-a690-ef49e0b9c6c3")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.85 -0.7)
+		(end -0.85 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "15261b12-2a7f-446b-90b6-c231e1b8a70b")
+	)
+	(fp_line
+		(start -0.85 -0.7)
+		(end 0.85 -0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b790c3be-171b-432b-a272-fcc0d73b0b19")
+	)
+	(fp_line
+		(start -0.85 0.7)
+		(end -0.65 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f95c87be-14cf-4837-831d-2199333c28f2")
+	)
+	(fp_line
+		(start -0.35 0.7)
+		(end 0.85 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ecebc672-93b3-457e-94c9-ad8d08456b16")
+	)
+	(fp_line
+		(start 0.85 0.7)
+		(end 0.85 -0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2561f1b0-b621-4ca5-b163-1802d249e8f6")
+	)
+	(fp_circle
+		(center -0.5 0.75)
+		(end -0.45 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e55ae907-ee99-4fc1-b32e-16ff2e306795")
+	)
+	(fp_rect
+		(start -0.975 -0.75)
+		(end 0.975 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ddcdb738-ad3c-4816-ae0f-f5188a3ebcb3")
+	)
+	(fp_rect
+		(start -0.725 -0.5)
+		(end 0.725 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3806ec60-e1d9-4c79-ab86-190642609070")
+	)
+	(fp_circle
+		(center -0.5 0.6)
+		(end -0.45 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "a99ea868-7382-41e0-aeeb-b7683dd93347")
+	)
+	(pad "1" smd rect
+		(at -0.5 0.3)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b693461e-7466-458d-8f5d-e8416bb72512")
+	)
+	(pad "2" smd rect
+		(at 0 0.3)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "614e7d83-722f-40f9-b136-968e37b17a97")
+	)
+	(pad "3" smd rect
+		(at 0.5 0.3)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "58808a20-af06-45cd-92ae-78c17245a9be")
+	)
+	(pad "4" smd rect
+		(at 0.5 -0.3 180)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5762f7aa-12ec-4ec2-be19-48da4c2fd9ed")
+	)
+	(pad "5" smd rect
+		(at 0 -0.3 180)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ceb65da2-5782-4bcf-b502-e1683159bea4")
+	)
+	(pad "6" smd rect
+		(at -0.5 -0.3 180)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2dfb89c-b6b0-4e09-bdc2-fa3f2c022d4b")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/74LVC1G175GM_115.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

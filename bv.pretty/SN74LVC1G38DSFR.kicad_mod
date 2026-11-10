@@ -1,0 +1,221 @@
+(footprint "SN74LVC1G38DSFR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+125℃ 1 1.65V~5.5V 1.7V~2V 10uA 2 3.9ns@5V,50pF 32mA 550mV 700mV~800mV 74LVC Series NAND Gate SON-6(1x1) Logic Gates ROHS")
+	(tags "C2867531 SN74LVC1G38DSFR SON-6_L1.0-W1.0-P0.35-TL Texas Instruments")
+	(property "Reference" "REF**"
+		(at 0 -1.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b9e81e5f-68b4-457c-9f59-e86851331ae0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 0 0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fce70fe3-4f39-4fc7-93fb-3a913266a1ad")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220000_Texas-Instruments-SN74LVC1G38DSFR_C2867531.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac35d036-0ccb-4ee2-b9f4-f1b2977260df")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "-40℃~+125℃ 1 1.65V~5.5V 1.7V~2V 10uA 2 3.9ns@5V,50pF 32mA 550mV 700mV~800mV 74LVC Series NAND Gate SON-6(1x1) Logic Gates ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d90f8e8-b5d8-408e-bc0b-20eca2a19398")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C2867531"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbd54372-9e49-4dec-9bdb-99996c05aed7")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.9 -0.65)
+		(end 0.9 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "02b986b9-7773-44b7-a1ed-a7c06cc63aee")
+	)
+	(fp_line
+		(start -0.9 -0.5)
+		(end -0.9 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f483383b-2018-48d1-8442-2fbff3a5e6eb")
+	)
+	(fp_line
+		(start -0.9 0.65)
+		(end -0.9 -0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f0d12325-73b4-4d7c-9f30-15b694cadf8a")
+	)
+	(fp_line
+		(start 0.9 -0.65)
+		(end 0.9 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "71084b8a-f3a4-442d-938e-6e12f6f65d15")
+	)
+	(fp_line
+		(start 0.9 0.65)
+		(end -0.9 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2f023235-93ab-4ae1-88d4-5f1a23861151")
+	)
+	(fp_circle
+		(center -0.95 -0.35)
+		(end -0.902301 -0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a114fd12-2651-40a9-8d38-42dede52afa6")
+	)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f82f24a9-1ef3-4709-a5e6-b7d8ddd07d8b")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2b272f49-a214-49b8-9135-6904da0617bd")
+	)
+	(fp_circle
+		(center -0.8 -0.352755)
+		(end -0.749962 -0.352755)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "42e02bae-1944-4d5f-a627-e86b26cd9ac3")
+	)
+	(pad "1" smd roundrect
+		(at -0.4 -0.35)
+		(size 0.6 0.17)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3e2e9c4c-cc6b-4d22-adf3-40ba61f6fe55")
+	)
+	(pad "2" smd roundrect
+		(at -0.4 0)
+		(size 0.6 0.17)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7b70ded4-a70d-421e-90b6-c2dc68a6f0e7")
+	)
+	(pad "3" smd roundrect
+		(at -0.4 0.35)
+		(size 0.6 0.17)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4bad825b-609c-4120-9ba0-2fcc1863e78b")
+	)
+	(pad "4" smd roundrect
+		(at 0.4 0.35)
+		(size 0.6 0.17)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4df07744-a6c2-4bf3-b3a3-e65c732efd05")
+	)
+	(pad "5" smd roundrect
+		(at 0.4 0)
+		(size 0.6 0.17)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "32969264-da95-4af1-8ff6-02597cc068bc")
+	)
+	(pad "6" smd roundrect
+		(at 0.4 -0.35)
+		(size 0.6 0.17)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "782e5d53-e038-42d9-be14-eac3ca2791f2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/bv_kicad_libs/bv.3dshapes/74LVC1G04GS_132.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

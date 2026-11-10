@@ -1,0 +1,163 @@
+(footprint "H5VU06B"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-55℃~+125℃ 0.5pF 1 125W@8/20us 200nA 25V 5A@8/20us 5V 9V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 DFN0603-2L ESD and Surge Protection (TVS/ESD) ROHS")
+	(tags "C20615780 DFN0603-2L-BI H5VU06B hongjiacheng")
+	(property "Reference" "REF**"
+		(at 0 -1.320167 0)
+		(layer "F.SilkS")
+		(uuid "2bdad894-4ae7-42b4-94b0-73a70382c974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 1.31 0)
+		(layer "F.Fab")
+		(uuid "5ae4e54a-16cb-4465-aa1f-5c12d062111f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401261524_hongjiacheng-H5VU06B_C20615780.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fda75242-2357-471a-960e-28877ea039bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-55℃~+125℃ 0.5pF 1 125W@8/20us 200nA 25V 5A@8/20us 5V 9V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 DFN0603-2L ESD and Surge Protection (TVS/ESD) ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db2c73e1-577b-43bf-95d3-b45fe62be631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C20615780"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03c18e3d-a778-4a85-b7c6-fbff3c622a93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.58 -0.32004)
+		(end -0.58 0.30988)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbe99ffc-181b-4f9c-a916-2659366f3f09")
+	)
+	(fp_line
+		(start -0.58 -0.32)
+		(end -0.2 -0.32)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "706bdf43-d2b4-4ca3-9442-1f7ccc1cb4b0")
+	)
+	(fp_line
+		(start -0.58 0.30988)
+		(end -0.19 0.31)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ed1add0-754b-4925-8e43-eef12dc14784")
+	)
+	(fp_line
+		(start 0.579857 0.30988)
+		(end 0.199847 0.30988)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e330016d-7165-4174-97c6-c5ad236a62f3")
+	)
+	(fp_line
+		(start 0.58 -0.32004)
+		(end 0.189789 -0.320167)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ecf4f0d-2dcc-49ee-800a-66bc4c96ac2e")
+	)
+	(fp_line
+		(start 0.58 0.30988)
+		(end 0.58 -0.32004)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "431ef19a-8f80-4e65-a90a-2d5c7b59680a")
+	)
+	(fp_rect
+		(start -0.65 -0.4)
+		(end 0.65 0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "52842164-0df3-4570-a5ab-c4a57e786071")
+	)
+	(pad "1" smd rect
+		(at -0.25 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c76d5f7f-6696-46e0-80a2-85eef51bf43a")
+	)
+	(pad "2" smd rect
+		(at 0.25 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d491de3f-0fab-4177-9b2e-98aedad29a0d")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/H5VU06B.wrl"
+		(offset
+			(xyz 0 0 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

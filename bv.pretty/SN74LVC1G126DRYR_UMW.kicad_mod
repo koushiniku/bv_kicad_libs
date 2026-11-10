@@ -1,0 +1,169 @@
+(footprint "SN74LVC1G126DRYR_UMW"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 1 1.65V~5.5V 10uA 24mA 24mA 5ns@3.3V,15pF 74LVC Tri-State DFN-6(1x1.5) Buffers, Drivers, Receivers, Transceivers ROHS")
+	(tags "C7598678 DFN-6_L1.5-W1.0-P0.50-BL SN74LVC1G126DRYR(UMW) UMW(Youtai Semiconductor Co., Ltd.)")
+	(property "Reference" "REF**"
+		(at 0 -1.71 0)
+		(layer "F.SilkS")
+		(uuid "7509b06d-ab85-4686-8b2e-ad86e123292b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 1.71 0)
+		(layer "F.Fab")
+		(uuid "f65a31ee-3b1c-421e-96a5-3043e3b69525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311091745_UMW-Youtai-Semiconductor-Co---Ltd--SN74LVC1G126DRYR-UMW_C7598678.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b10b1bf-b6a3-4828-8a85-ea9e4c08da2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 1 1.65V~5.5V 10uA 24mA 24mA 5ns@3.3V,15pF 74LVC Tri-State DFN-6(1x1.5) Buffers, Drivers, Receivers, Transceivers ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca77f645-5285-4390-aa98-4f3ecbe738fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C7598678"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7792d4a0-9233-4c44-9505-66c4671f2a13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.826338 0.576199)
+		(end -0.826338 -0.576199)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bfaf2bea-1568-4e3f-82f0-712f4f2fdb9e")
+	)
+	(fp_line
+		(start 0.826 0.576199)
+		(end 0.826 -0.576199)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b146d2c-d120-4698-bf4a-7262863f6a53")
+	)
+	(fp_circle
+		(center -0.5 1.01)
+		(end -0.425 1.01)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "58d85a2e-5365-4e62-a0de-609ee33dbb6a")
+	)
+	(fp_rect
+		(start -1 -0.75)
+		(end 1 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "feffea24-4457-408e-a67c-dc0daf68cd1a")
+	)
+	(fp_circle
+		(center -0.5 0.8001)
+		(end -0.425 0.8001)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "133e9f60-2a08-4a00-9368-4bed1079f500")
+	)
+	(pad "1" smd rect
+		(at -0.5 0.417576)
+		(size 0.28 0.585)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "59380265-b126-483b-929a-f1183244b591")
+	)
+	(pad "2" smd rect
+		(at -0.000127 0.417576)
+		(size 0.28 0.585)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8f7433a-fea5-4a7c-a596-4b862d67a83d")
+	)
+	(pad "3" smd rect
+		(at 0.5 0.417576)
+		(size 0.28 0.585)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6708ca71-2471-4f40-ac80-b5b8414e7b9f")
+	)
+	(pad "4" smd rect
+		(at 0.5 -0.417576)
+		(size 0.28 0.585)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1bde6846-9f53-436a-bfa8-d656c1e78238")
+	)
+	(pad "5" smd rect
+		(at -0.000127 -0.417576)
+		(size 0.28 0.585)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc9ada16-97ec-4792-902e-612f85efe4bf")
+	)
+	(pad "6" smd rect
+		(at -0.5 -0.417576)
+		(size 0.28 0.585)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1f51f83-d727-45be-8781-bb7e2bb89a83")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/SN74LVC1G126DRYR_UMW.wrl"
+		(offset
+			(xyz -0.00014 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
