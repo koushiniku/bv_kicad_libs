@@ -1,0 +1,215 @@
+(footprint "EM74LVC1G38GM"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DFN-6L(1x1.5) Logic Gates ROHS")
+	(tags "C54929569 EM74LVC1G38GM EnergyMath UFDFN-6_L1.45-W1.0-P0.50-BL")
+	(property "Reference" "REF**"
+		(at 0 -1.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0f36cec9-497e-47fe-ab1f-e174658be301")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "befe2e17-002b-4290-bafd-56481429aea6")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/d62ced30fa8298455af3dc4508b2d167.pdf?productCode=C54929569"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78db18ae-f810-4f92-a91b-d0f97f929cb6")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "DFN-6L(1x1.5) Logic Gates ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fde7c119-f632-4a4e-b5b8-df3319452782")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C54929569"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b45db390-a518-4d0a-ae87-3af2a979d573")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.8 -0.65)
+		(end -0.8 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c6e78ea-3060-4950-9f73-df9926ea612d")
+	)
+	(fp_line
+		(start -0.8 0.65)
+		(end -0.65 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "20b2720d-482c-4663-9d40-a6705a505db5")
+	)
+	(fp_line
+		(start -0.35 0.65)
+		(end 0.8 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dcd33f1e-5c47-4d36-a37d-2cfcc671d331")
+	)
+	(fp_line
+		(start 0.8 -0.65)
+		(end -0.8 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "47332c5a-4dcb-49f3-a4a3-4d851aba0f79")
+	)
+	(fp_line
+		(start 0.8 0.65)
+		(end 0.8 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0d8c535-216a-438c-838b-1b5e19bb8d9e")
+	)
+	(fp_circle
+		(center -0.5 0.7)
+		(end -0.45 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c50b651f-73d7-418d-b1ed-98e134ce1be0")
+	)
+	(fp_rect
+		(start -0.975 -0.75)
+		(end 0.975 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "05f7483b-a5e4-484b-ab58-2ded7f3b29d0")
+	)
+	(fp_rect
+		(start -0.725 -0.5)
+		(end 0.725 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "87bc88f7-632d-40b4-b730-3d76af7a0275")
+	)
+	(fp_circle
+		(center -0.5 0.55)
+		(end -0.45 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d1cc7e24-7569-4294-8d1d-75f8b7edfdcd")
+	)
+	(pad "1" smd rect
+		(at -0.5 0.3 90)
+		(size 0.3 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2e38ee4-86da-423e-9ee1-43552adae90d")
+	)
+	(pad "2" smd rect
+		(at 0 0.3 90)
+		(size 0.3 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f4e8103-1854-47ca-8c2c-29e237f24b69")
+	)
+	(pad "3" smd rect
+		(at 0.5 0.3 90)
+		(size 0.3 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "636a9689-499c-4251-8ee5-1b43f61704b9")
+	)
+	(pad "4" smd rect
+		(at 0.5 -0.3 90)
+		(size 0.3 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a36b949e-9030-413c-9ccc-dd40843f57a2")
+	)
+	(pad "5" smd rect
+		(at 0 -0.3 90)
+		(size 0.3 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a80d6ca-dfc8-4be5-a82a-8dc7ac92ff16")
+	)
+	(pad "6" smd rect
+		(at -0.5 -0.3 90)
+		(size 0.3 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f62615cf-4cbb-4e0c-9cac-029883720c7f")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/EM74LVC1G38GM.wrl"
+		(offset
+			(xyz -0.000127 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
