@@ -9,7 +9,7 @@
 		(at 0 -0.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "fd29f70d-9515-4e65-8c40-0b988894d989")
+		(uuid "4bca5546-560d-4b90-9b94-1d41163e76f7")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -21,7 +21,7 @@
 		(at 0 0.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "39f2140c-ea01-4887-ac25-bbc62255b294")
+		(uuid "20d0830a-4e9c-49e5-83f7-d3f59c838b15")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b2a68948-e364-4cf1-b0de-c949bccd932d")
+		(uuid "30bdfefb-c733-461e-9316-dd1804a8d489")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e4c15be4-f392-4bf1-b65a-a8b0b947ed5c")
+		(uuid "5b15a29d-6599-44a2-850c-d78d0ce93f29")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -60,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "264e1df8-3a07-431f-afbc-794b65d6b0e9")
+		(uuid "07ba0fc8-4d0d-4011-816f-a1654b14501a")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -71,54 +71,54 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -1.05 -0.5)
-		(end 0.85 0.5)
+		(start -0.95 -0.5)
+		(end 0.95 0.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "6eab1dc5-1e0b-4e7b-bf6f-0600a0fbc90f")
+		(uuid "5caaaa00-aa51-4693-817a-b1368810f82e")
 	)
 	(fp_rect
-		(start -0.85 -0.5)
-		(end 0.65 0.5)
+		(start -0.75 -0.5)
+		(end 0.75 0.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d4830a51-a175-4992-90c6-3587b0b7c80a")
+		(uuid "0c5cd27d-5b9e-4ae1-8fbd-209ca0461ad7")
 	)
 	(fp_rect
-		(start -0.6 -0.25)
-		(end 0.4 0.25)
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e4c322c2-0948-4117-b935-e3853f7a30a5")
+		(uuid "1d966597-56eb-44de-9a29-47a7a2408445")
 	)
 	(pad "1" smd rect
-		(at -0.6 0)
+		(at -0.5 0)
 		(size 0.5 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5c2ffa1d-7634-411b-8d77-312f562a95c0")
+		(uuid "482d3e5e-b239-4c60-820d-2c6cac7397e7")
 	)
 	(pad "2" smd rect
-		(at 0.4 0)
+		(at 0.5 0)
 		(size 0.5 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "221346c7-54dc-4e0e-bda4-d908923b0949")
+		(uuid "ad58e716-7cf3-4f83-a1da-ef938dab5aa0")
 	)
 	(embedded_fonts no)
 	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/0402WGF1002TCE.wrl"
 		(offset
-			(xyz -0.1 0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
