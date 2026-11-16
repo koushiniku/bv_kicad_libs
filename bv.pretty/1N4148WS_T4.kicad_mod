@@ -1,0 +1,228 @@
+(footprint "1N4148WS_T4"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1.25V@150mA 100V 150mA 1uA@75V 200mW 2A 4ns Independent SOD-323 Switching Diodes ROHS")
+	(tags "1N4148WS C2128 Jiangsu Changjing Electronics Technology Co., Ltd. SOD-323_L1.8-W1.3-LS2.5-RD")
+	(property "Reference" "REF**"
+		(at 0 -1.05 0)
+		(layer "F.SilkS")
+		(uuid "3a195ca0-f1e8-4b51-878b-1c799b3f0bea")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9e12ab38-ebc4-4dd0-a889-6fd21acfe96f")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810101110_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--1N4148WS_C2128.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b4e93aa-8c33-4007-8e2e-d95cad0624e0")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "1.25V@150mA 100V 150mA 1uA@75V 200mW 2A 4ns Independent SOD-323 Switching Diodes ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65c8aa69-b8d6-4eda-8a09-f10a7adb4d2f")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C2128"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63f61adf-fdfa-42af-9a02-c35722d64d01")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.3 0)
+		(end -0.15 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d368874-9683-42f8-9852-5ec5427a843f")
+	)
+	(fp_line
+		(start 0.425 0)
+		(end 0.575 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29edfae3-7bd5-4621-8ee0-4a4759fa83b3")
+	)
+	(fp_line
+		(start 0.5 -0.075)
+		(end 0.5 0.075)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ea46059-90b3-493a-8a1f-f820c7b23d03")
+	)
+	(fp_line
+		(start 0.875 -0.65)
+		(end -0.875 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c888c111-2acb-4409-806b-4401368713ac")
+	)
+	(fp_line
+		(start 0.875 -0.65)
+		(end 0.875 -0.475)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef0f9997-037a-4c7c-98fd-9e92dd4e6692")
+	)
+	(fp_line
+		(start 0.875 0.65)
+		(end -0.875 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5000b3f1-7f81-4073-b50d-7ebe8aeb24ba")
+	)
+	(fp_line
+		(start 0.875 0.65)
+		(end 0.875 0.475)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d047e32c-3020-4e55-a8ae-8d50b53eeed3")
+	)
+	(fp_rect
+		(start -0.875 -0.65)
+		(end -0.4 -0.475)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6874a923-edb5-42a8-98ad-cee32bd2ea35")
+	)
+	(fp_rect
+		(start -0.875 0.475)
+		(end -0.4 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8b9f6d23-e116-488c-937e-0a4423c25f15")
+	)
+	(fp_rect
+		(start -0.575 -0.65)
+		(end -0.4 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b00ad300-3f62-49e6-9544-27b008e31deb")
+	)
+	(fp_rect
+		(start -1.1 -0.875)
+		(end 1.1 0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a818d33a-2d5e-4a29-ac70-228fa29797a0")
+	)
+	(fp_rect
+		(start -0.85 -0.625)
+		(end -0.425 0.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4cdaefec-84a7-48c3-882d-5b253d24fc11")
+	)
+	(fp_rect
+		(start -0.85 -0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e5298590-3429-45c5-85c1-40d3969c75bd")
+	)
+	(pad "1" smd rect
+		(at -1.05 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9ce7bf20-412c-4b1e-a413-ea4debdb36e5")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7769c18b-c499-4d17-a51b-c9adbf2c40e4")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_mc_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/1N4148WS_T4.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

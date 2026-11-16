@@ -6,10 +6,10 @@
 	(descr "-55℃~+125℃ 10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS")
 	(tags "-- C7171 CAP-SMD_L3.2-W1.6-RD-C7171 TAJA106K016RNJ")
 	(property "Reference" "REF**"
-		(at 0 -1.25 0)
+		(at 0 -1.375 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "0505e720-4486-442d-807b-6679cc438c73")
+		(uuid "f2ffc0d8-ee49-43c2-992a-5ee61a3a2c8e")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -17,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "${REFERENCE}"
+	(property "Value" ""
 		(at 0 1.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b4aa9bcb-c26f-409c-a5a7-2855130de674")
+		(uuid "61d99e6d-1234-406c-8961-50d362c87a92")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "738057b0-9d34-400e-a961-28e1956b7e1a")
+		(uuid "6a76dafe-2ee3-4eaf-bdd8-018c51561202")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6228c179-ddbb-4294-883f-e46ca51768d1")
+		(uuid "86669724-fdf6-4031-9b25-6ff069d190bd")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -60,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ac960eda-67e0-440a-a3cb-02c486c63c9b")
+		(uuid "b6c0fbfc-4c2b-4324-b840-e56c585df106")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -71,79 +71,65 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -1.65 -0.95)
-		(end -1.45 -0.95)
+		(start -1.65 -0.975)
+		(end 1.625 -0.975)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "19a08190-8205-4f80-9405-9ba55b553b50")
+		(uuid "e4c7b164-7b77-49fd-bcb1-468079157c40")
 	)
 	(fp_line
-		(start -1.65 0.85)
-		(end 1.65 0.85)
+		(start -1.625 0.975)
+		(end 1.625 0.975)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "87957829-f0a3-4d82-b0cd-386ffa5c5264")
+		(uuid "326e2447-16a0-4b0f-982c-0890248ae229")
 	)
 	(fp_line
-		(start -1.55 -1.05)
-		(end -1.55 -0.85)
+		(start -0.125 0)
+		(end 0.075 0)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "86a85fcd-ee57-47fd-85f0-f238b3f61636")
+		(uuid "6d11b9ec-a44a-4634-a847-de17810465a7")
 	)
 	(fp_line
-		(start -1.4 -0.85)
-		(end 1.65 -0.85)
+		(start -0.025 -0.1)
+		(end -0.025 0.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ab0e3400-99f1-43c9-abad-13317852bea1")
+		(uuid "a50b51c2-4eac-4273-b20d-fd8ff6cdc907")
+	)
+	(fp_line
+		(start 0.3 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b4262e48-047c-4105-8441-95d475853ed5")
 	)
 	(fp_rect
-		(start -0.55 -0.85)
-		(end 0 0.85)
+		(start -0.374999 -0.975)
+		(end -0.2 0.975)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "8816ed2c-cce5-4163-bc9f-74af2ff261bc")
-	)
-	(fp_poly
-		(pts
-			(xy -0.65 -0.85) (xy -0.55 -0.75) (xy -0.55 -0.85)
-		)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "c632b367-64dd-4bde-a4df-3211460d94d5")
-	)
-	(fp_poly
-		(pts
-			(xy -0.55 0.85) (xy -0.55 0.75) (xy -0.65 0.85)
-		)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "ec0f3884-eae4-4575-9c17-db3e64cca60e")
+		(uuid "dc78de56-eaed-4cd1-86d8-9a33e4eba5b6")
 	)
 	(fp_rect
 		(start -1.85 -1.05)
@@ -154,41 +140,21 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4a162625-bdf8-49a5-a1fd-5ad3d8cc08d9")
-	)
-	(fp_line
-		(start -1.9 -0.8)
-		(end -1.7 -0.8)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "bf3662e2-b469-48c1-a7fc-b517b0107c64")
-	)
-	(fp_line
-		(start -1.8 -0.9)
-		(end -1.8 -0.7)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "3a48a81b-3f3b-4082-91fa-38f6c4b02745")
+		(uuid "35e74b54-8824-4936-9415-3f7fc092a94e")
 	)
 	(fp_rect
 		(start -1.6 -0.8)
-		(end 0 0.8)
+		(end -0.8 0.8)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "c632615c-cc06-4806-85aa-54c8c721b1cd")
+		(uuid "a7a8a1f8-b7ad-480d-afbd-a77888080a3b")
 	)
 	(fp_rect
-		(start 0 -0.8)
+		(start -1.6 -0.8)
 		(end 1.6 0.8)
 		(stroke
 			(width 0.05)
@@ -196,19 +162,19 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b9d5a133-f4e3-4699-ad05-727d784df039")
+		(uuid "3329bc5b-2b6b-4701-922d-df222f94cd21")
 	)
 	(pad "1" smd rect
-		(at -1.53 0 180)
-		(size 1.53 1.296)
+		(at -1.3 0 180)
+		(size 1.5 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "135a8624-3d42-4acc-a3c4-a3afe2af4b48")
+		(uuid "ae2c9a51-e71c-477c-9eb3-2ea9ea0e6d74")
 	)
 	(pad "2" smd rect
-		(at 1.53 0 180)
-		(size 1.53 1.296)
+		(at 1.3 0 180)
+		(size 1.5 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "633e5181-fbc0-4a79-b07a-805c31e80769")
+		(uuid "bb8fac06-90e5-487f-85b6-06e63fd388d7")
 	)
 	(embedded_fonts no)
 	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/TAJA106K016RNJ.wrl"

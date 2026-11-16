@@ -1,0 +1,197 @@
+(footprint "SN74LVC1G74DCUR_C70285"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+125℃ 1 1 1.1ns 1.65V~5.5V 10uA 200MHz 32mA 32mA 500ps 5pF 6.4ns@5V,50pF 74LVC Series Complementary D-Type Rising Edge Set and Reset VSSOP-8 Flip Flops ROHS")
+	(tags "C70285 SN74LVC1G74DCUR SSOP-8_L2.0-W2.3-P0.50-LS3.1-BR Texas Instruments")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b8155d0b-b92d-45bd-8bd1-7ca01c685654")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b1fe7c8-d144-4a95-8895-7e9e0709bfc7")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806150327_Texas-Instruments-SN74LVC1G74DCUR_C70285.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "997dccb1-5eec-42e5-a972-ba9043e77951")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "-40℃~+125℃ 1 1 1.1ns 1.65V~5.5V 10uA 200MHz 32mA 32mA 500ps 5pF 6.4ns@5V,50pF 74LVC Series Complementary D-Type Rising Edge Set and Reset VSSOP-8 Flip Flops ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a72f3c11-07e7-4cfc-99dc-a4037b69338f")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C70285"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fa79feb-2125-4899-9c3c-d88e7077a260")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.075 -1.175)
+		(end -1.075 1.175)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc6c77ba-490b-459e-8a8a-6bcdf39cd6c0")
+	)
+	(fp_line
+		(start 1.075 -1.175)
+		(end 1.075 1.175)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a975265-0939-4ae0-aab6-39db791ce106")
+	)
+	(fp_circle
+		(center -1.075 1.275)
+		(end -1.05 1.275)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e3575d51-a4b6-4a52-bad9-5f148bf88f7c")
+	)
+	(fp_rect
+		(start -1.15 -1.8)
+		(end 1.15 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "df07491f-0454-4bbb-b1d5-8f734cc4f3a5")
+	)
+	(fp_rect
+		(start -1 -1.15)
+		(end 1 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1a18718d-7836-4967-ba77-b4d60056471e")
+	)
+	(fp_circle
+		(center -1.025 1.275)
+		(end -1 1.275)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "f1b57f0a-8eaa-4d9a-9f33-d349d18dca50")
+	)
+	(pad "1" smd rect
+		(at -0.75 1.55 270)
+		(size 0.8 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "25ebbc09-b879-4d80-85ae-36af55c3ccc2")
+	)
+	(pad "2" smd rect
+		(at -0.25 1.55 270)
+		(size 0.8 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d532113c-2801-4747-8335-f06474e95fff")
+	)
+	(pad "3" smd rect
+		(at 0.25 1.55 270)
+		(size 0.8 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "982353ce-1783-4a8e-8ad1-c2f224e37fde")
+	)
+	(pad "4" smd rect
+		(at 0.75 1.55 270)
+		(size 0.8 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "89801f1f-03e3-4ae0-948d-2c4a1e44ab99")
+	)
+	(pad "5" smd rect
+		(at 0.75 -1.55 270)
+		(size 0.8 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f2217a9-1a61-4bba-a106-ac637366baab")
+	)
+	(pad "6" smd rect
+		(at 0.25 -1.55 270)
+		(size 0.8 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "507703ee-c29d-488f-a5c2-7defd40cce51")
+	)
+	(pad "7" smd rect
+		(at -0.25 -1.55 270)
+		(size 0.8 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e11710b-f351-4e57-9876-057e30b6c9fe")
+	)
+	(pad "8" smd rect
+		(at -0.75 -1.55 270)
+		(size 0.8 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "852fc740-5f60-4447-bc2e-b16f84ed246e")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_mc_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/SN74LVC1G74DCUR_C70285.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

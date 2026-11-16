@@ -5,36 +5,12 @@
 	(layer "F.Cu")
 	(descr "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS")
 	(tags "0402WGF1002TCE C25744 R0402 UNI-ROYAL(Uniroyal Elec)")
-	(property "Reference" "REF**"
-		(at 0 -0.9 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4bca5546-560d-4b90-9b94-1d41163e76f7")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.075)
-			)
-		)
-	)
-	(property "Value" "${REFERENCE}"
-		(at 0 0.75 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "20d0830a-4e9c-49e5-83f7-d3f59c838b15")
-		(effects
-			(font
-				(size 0.3 0.3)
-				(thickness 0.0375)
-			)
-		)
-	)
 	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "30bdfefb-c733-461e-9316-dd1804a8d489")
+		(uuid "4bf67a2c-f270-43e6-85bf-4e3ef12f2272")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -47,7 +23,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5b15a29d-6599-44a2-850c-d78d0ce93f29")
+		(uuid "b95602f6-62bf-47b6-a27c-3a4ab3884078")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -60,7 +36,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "07ba0fc8-4d0d-4011-816f-a1654b14501a")
+		(uuid "2854d5ae-e753-4c02-a7ef-c1b49fa7c8bf")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -68,18 +44,91 @@
 			)
 		)
 	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6c423af3-5357-45a1-b703-c698f978205b")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 -0.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dc2bc968-f637-4bf8-b208-12618b132ee7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_rect
-		(start -0.95 -0.5)
-		(end 0.95 0.5)
+	(fp_line
+		(start -0.875 -0.45)
+		(end -0.875 0.45)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "5caaaa00-aa51-4693-817a-b1368810f82e")
+		(uuid "7164d20e-e615-4198-8db0-e2f6ef8724fe")
+	)
+	(fp_line
+		(start -0.875 0.45)
+		(end -0.25 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a48731a8-82fb-4285-a165-fab9fcb830f0")
+	)
+	(fp_line
+		(start -0.25 -0.45)
+		(end -0.875 -0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e1b0f289-e05a-48a6-94d5-6e6cac1f87c6")
+	)
+	(fp_line
+		(start 0.25 0.45)
+		(end 0.875 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac620627-dc93-4e9d-95cd-dbae6c568177")
+	)
+	(fp_line
+		(start 0.875 -0.45)
+		(end 0.25 -0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f4f3b57-42f6-4015-bc17-0fc10b10601e")
+	)
+	(fp_line
+		(start 0.875 -0.45)
+		(end 0.875 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9e6b2a47-59ad-43cf-9392-271436c96741")
 	)
 	(fp_rect
 		(start -0.75 -0.5)
@@ -90,7 +139,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "0c5cd27d-5b9e-4ae1-8fbd-209ca0461ad7")
+		(uuid "a1d225f3-3200-406e-bebd-8b8d5713a854")
 	)
 	(fp_rect
 		(start -0.5 -0.25)
@@ -101,19 +150,19 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "1d966597-56eb-44de-9a29-47a7a2408445")
+		(uuid "afc8d737-dbc0-487e-9fcb-137e213d2b13")
 	)
 	(pad "1" smd rect
-		(at -0.5 0)
-		(size 0.5 0.6)
+		(at -0.475 0)
+		(size 0.45 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "482d3e5e-b239-4c60-820d-2c6cac7397e7")
+		(uuid "eb3c4876-31e7-436e-a253-dd94a97f3c4d")
 	)
 	(pad "2" smd rect
-		(at 0.5 0)
-		(size 0.5 0.6)
+		(at 0.475 0)
+		(size 0.45 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ad58e716-7cf3-4f83-a1da-ef938dab5aa0")
+		(uuid "de2dd8dd-57d6-4af5-851f-607f345549ba")
 	)
 	(embedded_fonts no)
 	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/0402WGF1002TCE.wrl"

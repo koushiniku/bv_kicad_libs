@@ -1,0 +1,235 @@
+(footprint "SN74LVC1G29YZPR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 1.65V~5.5V 10uA 2/3 32mA 32mA 5.1ns@3.3V,15pF 74LVC Decoder Power-off protection、Hot-swap protection Single Supply DSBGA-8 Signal Switches, Multiplexers, Decoders ROHS")
+	(tags "C2879469 DSBGA-8_L2.0-W1.0-R2-C4-P0.50-BL SN74LVC1G29YZPR Texas Instruments")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6a865b75-fb4b-4198-bb63-378eb4a40cc2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "532f67a7-c7af-4b6a-b073-85293f304188")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302281200_Texas-Instruments-SN74LVC1G29YZPR_C2879469.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b41ad296-e303-4f57-8bb1-9048ea40ad6c")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 1.65V~5.5V 10uA 2/3 32mA 32mA 5.1ns@3.3V,15pF 74LVC Decoder Power-off protection、Hot-swap protection Single Supply DSBGA-8 Signal Switches, Multiplexers, Decoders ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f5c215c-4c34-478f-b0a0-72a81bdb4f87")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C2879469"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40a8cf41-1324-433b-ba93-84cd059757d5")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.05 -0.55)
+		(end -1.05 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53542b5d-bc87-45c9-8e14-6f373aeeb760")
+	)
+	(fp_line
+		(start -1.05 -0.55)
+		(end 1.05 -0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0f10b00-f6f8-49c0-818f-3ca72239a6c1")
+	)
+	(fp_line
+		(start -0.85 0.55)
+		(end -1.05 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72c79936-e555-4333-9047-a890d444b480")
+	)
+	(fp_line
+		(start 1.05 -0.55)
+		(end 1.05 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "15597f5f-297f-4804-8d5a-41ecac1cfdd5")
+	)
+	(fp_line
+		(start 1.05 0.55)
+		(end -0.65 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b57a9bbc-565a-42e4-b5ae-8be8e3a0a3f4")
+	)
+	(fp_circle
+		(center -0.75 0.55)
+		(end -0.725 0.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "97a49b9a-7e0c-4ac5-94ce-32a03109c627")
+	)
+	(fp_rect
+		(start -1.194 -0.694)
+		(end 1.194 0.694)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3bcec221-cd66-4bf0-90b4-5187005fb082")
+	)
+	(fp_rect
+		(start -0.944 -0.444)
+		(end 0.944 0.444)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c677f624-dc8e-43f4-8ca1-e4e3aa27a8fd")
+	)
+	(fp_circle
+		(center -0.75 0.5)
+		(end -0.725 0.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "9ab62826-7911-419b-9fd9-b78c7354eaef")
+	)
+	(pad "1" smd circle
+		(at -0.75 0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "b30e0392-ca15-486e-8439-1b8e771bfc6a")
+	)
+	(pad "2" smd circle
+		(at -0.25 0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "76ce63d5-2f33-4522-a9ea-46a54cb2c182")
+	)
+	(pad "3" smd circle
+		(at 0.25 0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "361b4005-8653-4039-a253-38ca467e2ae0")
+	)
+	(pad "4" smd circle
+		(at 0.75 0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "befd04f5-95ae-414d-a0eb-fba7eb054a63")
+	)
+	(pad "5" smd circle
+		(at 0.75 -0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "83fff253-a3f2-444a-ab64-7767b4779d90")
+	)
+	(pad "6" smd circle
+		(at 0.25 -0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "e729f683-b173-4be7-82b7-acc7b844d80b")
+	)
+	(pad "7" smd circle
+		(at -0.25 -0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "759261c7-267a-4444-aa9d-6273b8452a94")
+	)
+	(pad "8" smd circle
+		(at -0.75 -0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "825b0b50-e6db-4d6c-aa73-13e956352d58")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_mc_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/SN74LVC1G29YZPR.wrl"
+		(offset
+			(xyz 0 0 0.48)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
