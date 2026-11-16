@@ -1,0 +1,308 @@
+<<<<<<< HEAD
+(footprint "0402WGF220JTCE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS")
+	(tags "0402WGF220JTCE C25092 R0402 UNI-ROYAL(Uniroyal Elec)")
+	(property "Reference" "REF**"
+		(at 0 -0.85 0)
+		(layer "F.SilkS")
+		(uuid "1fe1ecce-bec3-4ea5-8883-02cc0ee1f905")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b7a83643-b76d-4e1a-9680-8d81235394ca")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15c143e5-9533-46d4-90c4-3efb1857613b")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35a373ef-9092-4402-aa81-03ff13d1b136")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C25092"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a180acaf-d998-4f24-a1f2-3ca45146fa89")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.875 -0.45)
+		(end -0.875 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5af1cc7c-2638-4ee7-a7dc-c42a9415d967")
+	)
+	(fp_line
+		(start -0.875 0.45)
+		(end -0.25 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2f62722d-633a-40dc-9ed9-d42e3fc82490")
+	)
+	(fp_line
+		(start -0.25 -0.45)
+		(end -0.875 -0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d390c494-8b1e-4678-a39d-8eb48b47a1ac")
+	)
+	(fp_line
+		(start 0.25 0.45)
+		(end 0.875 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8556017f-b8fb-4786-8ea1-6713e577cd3e")
+	)
+	(fp_line
+		(start 0.875 -0.45)
+		(end 0.25 -0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aab3e60d-8983-4618-98ff-ed1faa280160")
+	)
+	(fp_line
+		(start 0.875 -0.45)
+		(end 0.875 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3749f24-71bc-424e-a08b-e9c257b38800")
+	)
+	(fp_rect
+		(start -0.75 -0.5)
+		(end 0.75 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f4c2b166-6ac7-4ac7-95e2-59f87617e097")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4b27d2af-028a-41d4-8749-1a08a8ef2b1f")
+	)
+	(pad "1" smd rect
+		(at -0.475 0)
+		(size 0.45 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4feb9973-e019-4004-92a6-f9275056c9ba")
+	)
+	(pad "2" smd rect
+		(at 0.475 0)
+		(size 0.45 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1707fd75-d8b1-42b8-9c1b-74ea98e613c2")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_mc_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/0402WGF220JTCE.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
+||||||| parent of 6dd72de (updates for replacia)
+=======
+(footprint "0402WGF220JTCE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS")
+	(tags "0402WGF220JTCE C25092 R0402 UNI-ROYAL(Uniroyal Elec)")
+	(property "Reference" "REF**"
+		(at 0 -0.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d8be3de-fc97-46fb-8610-62f4a31e6bbc")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "265ba579-fb0f-404c-a03d-b2d4a9bec4ac")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97bfc412-e871-4a04-9550-08558a5a4736")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aebbf218-60e2-4357-9bdc-cf587a8b2401")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "LCSC" "C25092"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "924ae564-5e1f-40e9-a7d0-a1242f41f572")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.95 -0.5)
+		(end 0.95 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5f1d2205-5933-4ebc-82f9-6f0360674649")
+	)
+	(fp_rect
+		(start -0.75 -0.5)
+		(end 0.75 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b1cfc273-6a02-4ddb-823d-7e823f677eaf")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eed749ff-27e1-4b92-85b4-32e882984779")
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "780565b9-dd52-4d79-8a7b-4eb604fdae03")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6436196d-367f-42de-a35b-1ae3d9b5f303")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/0402WGF220JTCE.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
+>>>>>>> 6dd72de (updates for replacia)
