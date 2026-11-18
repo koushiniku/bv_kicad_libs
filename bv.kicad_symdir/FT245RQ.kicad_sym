@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "FT245RNL"
+	(symbol "FT245RQ"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "FT245RNL"
+		(property "Value" "FT245RQ"
 			(at 0 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+		(property "Footprint" "bv:FT245RQ-TRAY"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39,7 +39,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2026/06/DS_FT245RN.pdf"
+		(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2020/08/DS_FT245R.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50,7 +50,18 @@
 				)
 			)
 		)
-		(property "Description" "FT245RN USB FIFO IC"
+		(property "Description" "FT245R USB FIFO IC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1550574"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72,10 +83,10 @@
 				)
 			)
 		)
-		(symbol "FT245RNL_0_0"
+		(symbol "FT245RQ_0_0"
 			(pin power_in line
-				(at -1.27 21.59 270)
-				(length 2.54)
+				(at -1.27 22.86 270)
+				(length 3.81)
 				(name "VCCIO"
 					(effects
 						(font
@@ -92,8 +103,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 13.97 180)
-				(length 2.54)
+				(at 16.51 13.97 180)
+				(length 3.81)
 				(name "D1"
 					(effects
 						(font
@@ -110,8 +121,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -1.27 180)
-				(length 2.54)
+				(at 16.51 -1.27 180)
+				(length 3.81)
 				(name "D7"
 					(effects
 						(font
@@ -128,8 +139,8 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -21.59 90)
-				(length 2.54)
+				(at -6.35 -22.86 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -146,8 +157,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 1.27 -5.08 0)
-				(length 2.54)
+				(at 0 -5.08 0)
+				(length 3.81)
 				(hide yes)
 				(name "NC"
 					(effects
@@ -165,8 +176,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 3.81 180)
-				(length 2.54)
+				(at 16.51 3.81 180)
+				(length 3.81)
 				(name "D5"
 					(effects
 						(font
@@ -183,8 +194,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 1.27 180)
-				(length 2.54)
+				(at 16.51 1.27 180)
+				(length 3.81)
 				(name "D6"
 					(effects
 						(font
@@ -201,8 +212,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 8.89 180)
-				(length 2.54)
+				(at 16.51 8.89 180)
+				(length 3.81)
 				(name "D3"
 					(effects
 						(font
@@ -219,8 +230,8 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -16.51 180)
-				(length 2.54)
+				(at 16.51 -16.51 180)
+				(length 3.81)
 				(name "~{PWREN}"
 					(effects
 						(font
@@ -237,8 +248,8 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -10.16 180)
-				(length 2.54)
+				(at 16.51 -10.16 180)
+				(length 3.81)
 				(name "~{RD}"
 					(effects
 						(font
@@ -255,8 +266,8 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -12.7 180)
-				(length 2.54)
+				(at 16.51 -12.7 180)
+				(length 3.81)
 				(name "WR"
 					(effects
 						(font
@@ -273,8 +284,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 1.27 -5.08 0)
-				(length 2.54)
+				(at 0 -5.08 0)
+				(length 3.81)
 				(hide yes)
 				(name "NC"
 					(effects
@@ -292,8 +303,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 1.27 -5.08 0)
-				(length 2.54)
+				(at 0 -5.08 0)
+				(length 3.81)
 				(hide yes)
 				(name "NC"
 					(effects
@@ -311,8 +322,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -1.27 0)
-				(length 2.54)
+				(at -16.51 -1.27 0)
+				(length 3.81)
 				(name "USBDP"
 					(effects
 						(font
@@ -329,8 +340,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 1.27 0)
-				(length 2.54)
+				(at -16.51 1.27 0)
+				(length 3.81)
 				(name "USBDM"
 					(effects
 						(font
@@ -347,8 +358,8 @@
 				)
 			)
 			(pin power_out line
-				(at 6.35 21.59 270)
-				(length 2.54)
+				(at 6.35 22.86 270)
+				(length 3.81)
 				(name "3V3OUT"
 					(effects
 						(font
@@ -365,8 +376,8 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -21.59 90)
-				(length 2.54)
+				(at -3.81 -22.86 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -383,8 +394,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 10.16 0)
-				(length 2.54)
+				(at -16.51 10.16 0)
+				(length 3.81)
 				(name "~{RESET}"
 					(effects
 						(font
@@ -401,8 +412,8 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 21.59 270)
-				(length 2.54)
+				(at -3.81 22.86 270)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
@@ -419,8 +430,8 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 -21.59 90)
-				(length 2.54)
+				(at -1.27 -22.86 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -437,8 +448,8 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -7.62 180)
-				(length 2.54)
+				(at 16.51 -7.62 180)
+				(length 3.81)
 				(name "~{TXE}"
 					(effects
 						(font
@@ -455,8 +466,8 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -5.08 180)
-				(length 2.54)
+				(at 16.51 -5.08 180)
+				(length 3.81)
 				(name "~{RXF}"
 					(effects
 						(font
@@ -473,8 +484,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 1.27 -5.08 0)
-				(length 2.54)
+				(at 0 -5.08 0)
+				(length 3.81)
 				(hide yes)
 				(name "NC"
 					(effects
@@ -492,8 +503,8 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -21.59 90)
-				(length 2.54)
+				(at 1.27 -22.86 90)
+				(length 3.81)
 				(name "AGND"
 					(effects
 						(font
@@ -510,8 +521,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 1.27 -5.08 0)
-				(length 2.54)
+				(at 0 -5.08 0)
+				(length 3.81)
 				(hide yes)
 				(name "NC"
 					(effects
@@ -529,8 +540,8 @@
 				)
 			)
 			(pin input line
-				(at 3.81 -21.59 90)
-				(length 2.54)
+				(at 3.81 -22.86 90)
+				(length 3.81)
 				(name "TEST"
 					(effects
 						(font
@@ -547,8 +558,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -8.89 0)
-				(length 2.54)
+				(at -16.51 -8.89 0)
+				(length 3.81)
 				(name "OSCI"
 					(effects
 						(font
@@ -565,8 +576,8 @@
 				)
 			)
 			(pin output line
-				(at -15.24 -11.43 0)
-				(length 2.54)
+				(at -16.51 -11.43 0)
+				(length 3.81)
 				(name "OSCO"
 					(effects
 						(font
@@ -583,8 +594,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 1.27 -5.08 0)
-				(length 2.54)
+				(at 0 -5.08 0)
+				(length 3.81)
 				(hide yes)
 				(name "NC"
 					(effects
@@ -602,8 +613,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 16.51 180)
-				(length 2.54)
+				(at 16.51 16.51 180)
+				(length 3.81)
 				(name "D0"
 					(effects
 						(font
@@ -620,8 +631,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 6.35 180)
-				(length 2.54)
+				(at 16.51 6.35 180)
+				(length 3.81)
 				(name "D4"
 					(effects
 						(font
@@ -638,8 +649,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 11.43 180)
-				(length 2.54)
+				(at 16.51 11.43 180)
+				(length 3.81)
 				(name "D2"
 					(effects
 						(font
@@ -655,8 +666,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -8.89 -22.86 90)
+				(length 3.81)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(symbol "FT245RNL_1_1"
+		(symbol "FT245RQ_1_1"
 			(rectangle
 				(start -12.7 19.05)
 				(end 12.7 -19.05)

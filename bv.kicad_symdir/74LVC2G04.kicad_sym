@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bv:74LVC2G04GM_115"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41,7 +41,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC2G04.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53,6 +53,17 @@
 			)
 		)
 		(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C426707"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

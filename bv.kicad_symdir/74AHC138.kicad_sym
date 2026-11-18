@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_SO_AKL:SSOP-16_5.3x6.2mm_P0.65mm"
+		(property "Footprint" "bv:74AHC138BQ_115"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53,6 +53,17 @@
 			)
 		)
 		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C554237"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -379,6 +390,25 @@
 					)
 				)
 				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 90)
+				(length 4.445)
+				(hide yes)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
