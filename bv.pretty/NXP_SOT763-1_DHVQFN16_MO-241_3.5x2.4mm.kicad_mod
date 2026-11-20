@@ -1,0 +1,302 @@
+(footprint "NXP_SOT763-1_DHVQFN16_MO-241_3.5x2.4mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "plastic, leadless dual in-line compatible thermal enhanced very thin quad flat package; 16 terminals; 0.5 mm pitch; 3.5 mm x 2.5 mm x 1 mm body")
+	(tags "nxp nexperia sot763 sot763-1 sot qfn vqfn dhvqfn dhvqfn16 mo241 mo-241")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "fe602f8f-eb88-47d0-8ff9-911b0951a9f6")
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "078e88a3-9afb-4196-8b89-a12d9455050a")
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/package-information/SOT763-1.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ef547c6-b5dd-4b02-b04c-31d838df995f")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "plastic, leadless dual in-line compatible thermal enhanced very thin quad flat package; 16 terminals; 0.5 mm pitch; 3.5 mm x 2.5 mm x 1 mm body"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dddf0ee1-cba2-416b-b9d0-545af622ce85")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.775 -0.55)
+		(end -1.775 -1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6055a65c-db3b-4e95-bd92-979ab6d246a3")
+	)
+	(fp_line
+		(start -1.775 0.725)
+		(end -1.775 1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41ce2939-936f-4703-a054-e2dd0081b35a")
+	)
+	(fp_line
+		(start -1.775 1.275)
+		(end -1.55 1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63834886-daa8-4b2f-b75e-3264008cd93c")
+	)
+	(fp_line
+		(start -1.769065 -1.275)
+		(end -1.55 -1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d991fbee-3137-4330-8613-722023c6eaa4")
+	)
+	(fp_line
+		(start 1.775 -1.275)
+		(end 1.55 -1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bbee51f-84f3-403c-8403-6bd27d573946")
+	)
+	(fp_line
+		(start 1.775 -0.55)
+		(end 1.775 -1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f59fcb4-ca64-4fde-ac3a-3f82abd34e6d")
+	)
+	(fp_line
+		(start 1.775 0.55)
+		(end 1.775 1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ed3f4bb-0c34-4090-a351-32a6e7e9f3ce")
+	)
+	(fp_line
+		(start 1.775 1.275)
+		(end 1.55 1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb289797-66ca-4b98-83fc-23b3f6b36a01")
+	)
+	(fp_circle
+		(center -1.8 0.575)
+		(end -1.775 0.575)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bde3e2b4-ab8a-46f2-968f-877a153ce092")
+	)
+	(fp_rect
+		(start -2 -1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e8f6d8eb-243f-44e1-9f02-6b0722d5af4d")
+	)
+	(fp_rect
+		(start -1.75 -1.25)
+		(end 1.75 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "75354bdb-f13b-435a-a660-ef56173061f1")
+	)
+	(fp_circle
+		(center -1.65 0.45)
+		(end -1.675 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "ab6ddea4-a26b-4505-aa0c-4534317173a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.425 0)
+		(layer "F.Fab")
+		(uuid "1412af77-478d-4466-b069-59a49ac5dd41")
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 0.25)
+		(size 0.9 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0396d10-00a5-4d02-a0c4-66b56f48a969")
+	)
+	(pad "2" smd rect
+		(at -1.25 1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc95f302-34a9-4aca-b6de-226153c491bb")
+	)
+	(pad "3" smd rect
+		(at -0.75 1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1c0f5b0-b70d-4858-bc87-ccb8916f8833")
+	)
+	(pad "4" smd rect
+		(at -0.25 1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "395c994b-ec8b-44b1-953c-07b86fd6209a")
+	)
+	(pad "5" smd rect
+		(at 0.25 1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9df606a0-7dd4-4269-b13f-53f295256bab")
+	)
+	(pad "6" smd rect
+		(at 0.75 1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca02b653-1904-48bd-a133-9efb234124ed")
+	)
+	(pad "7" smd rect
+		(at 1.25 1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e749b90e-1533-4728-96ff-2e81a575ce72")
+	)
+	(pad "8" smd rect
+		(at 1.8 0.25)
+		(size 0.9 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9783e2dc-30d8-485d-9a9d-4b5946d47b48")
+	)
+	(pad "9" smd rect
+		(at 1.8 -0.25)
+		(size 0.9 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e21ee27b-e237-4a5a-adda-8cc8af81be59")
+	)
+	(pad "10" smd rect
+		(at 1.25 -1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "843751e8-f3c7-4efb-8c11-4e0eeb6095e8")
+	)
+	(pad "11" smd rect
+		(at 0.75 -1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e59b69a-941f-456e-a63c-990655831078")
+	)
+	(pad "12" smd rect
+		(at 0.25 -1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e9fa70a-f37c-4597-85c2-182734f8a07c")
+	)
+	(pad "13" smd rect
+		(at -0.25 -1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77b9cc5c-40ee-4d46-8f07-be607dc9b78b")
+	)
+	(pad "14" smd rect
+		(at -0.75 -1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa7b58bc-5e35-4b32-86e8-6e002d3e5ecb")
+	)
+	(pad "15" smd rect
+		(at -1.25 -1.3)
+		(size 0.24 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e96a44f2-f36b-4b8c-b914-c29cca659da5")
+	)
+	(pad "16" smd rect
+		(at -1.8 -0.25)
+		(size 0.9 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "501d71b4-522e-44a9-9c15-180a30d3ac76")
+	)
+	(pad "17" smd rect
+		(at 0 0)
+		(size 1.9 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a48353a-2628-4049-88b3-5d3600136b3f")
+	)
+	(embedded_fonts no)
+	(model "/var/home/beveal/projects/bv_ft245_6502/schematics/libs/bv_kicad_libs/bv.3dshapes/74AHC138BQ_115.wrl"
+		(offset
+			(xyz 0 0 0.02)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
