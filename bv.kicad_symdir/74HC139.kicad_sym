@@ -3,34 +3,35 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
 	(symbol "74HC139"
+		(pin_names
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at 1.27 10.16 0)
+		(property "Reference" "U17"
+			(at 0 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "74HC139"
-			(at 1.27 7.62 0)
+			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc139.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52,7 +53,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual 2- to 4-Bit Decoders/Demultiplexers"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73,10 +74,32 @@
 				)
 			)
 		)
+		(property "ki_keywords" "decoder demultiplexer"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "DIP?16*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "74HC139_1_0"
 			(pin input line
-				(at -7.62 -3.81 0)
-				(length 2.54)
+				(at -8.89 2.54 0)
+				(length 3.81)
 				(name "1~{G}"
 					(effects
 						(font
@@ -93,8 +116,8 @@
 				)
 			)
 			(pin input line
-				(at -7.62 3.81 0)
-				(length 2.54)
+				(at -8.89 0 0)
+				(length 3.81)
 				(name "1A"
 					(effects
 						(font
@@ -111,8 +134,8 @@
 				)
 			)
 			(pin input line
-				(at -7.62 1.27 0)
-				(length 2.54)
+				(at -8.89 -2.54 0)
+				(length 3.81)
 				(name "1B"
 					(effects
 						(font
@@ -129,9 +152,9 @@
 				)
 			)
 			(pin output line
-				(at 7.62 3.81 180)
-				(length 2.54)
-				(name "1Y0"
+				(at 8.89 3.81 180)
+				(length 3.81)
+				(name "~{1Y0}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -147,9 +170,9 @@
 				)
 			)
 			(pin output line
-				(at 7.62 1.27 180)
-				(length 2.54)
-				(name "1Y1"
+				(at 8.89 1.27 180)
+				(length 3.81)
+				(name "~{1Y1}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -165,9 +188,9 @@
 				)
 			)
 			(pin output line
-				(at 7.62 -1.27 180)
-				(length 2.54)
-				(name "1Y2"
+				(at 8.89 -1.27 180)
+				(length 3.81)
+				(name "~{1Y2}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -183,9 +206,9 @@
 				)
 			)
 			(pin output line
-				(at 7.62 -3.81 180)
-				(length 2.54)
-				(name "1Y3"
+				(at 8.89 -3.81 180)
+				(length 3.81)
+				(name "~{1Y3}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -202,9 +225,10 @@
 			)
 		)
 		(symbol "74HC139_1_1"
-			(rectangle
-				(start -5.08 6.35)
-				(end 5.08 -6.35)
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 -6.35) (xy 5.08 6.35) (xy -5.08 5.08)
+				)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -216,9 +240,9 @@
 		)
 		(symbol "74HC139_2_0"
 			(pin output line
-				(at 7.62 -3.81 180)
-				(length 2.54)
-				(name "2Y3"
+				(at 8.89 -3.81 180)
+				(length 3.81)
+				(name "~{2Y3}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -234,9 +258,9 @@
 				)
 			)
 			(pin output line
-				(at 7.62 -1.27 180)
-				(length 2.54)
-				(name "2Y2"
+				(at 8.89 -1.27 180)
+				(length 3.81)
+				(name "~{2Y2}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -252,9 +276,9 @@
 				)
 			)
 			(pin output line
-				(at 7.62 1.27 180)
-				(length 2.54)
-				(name "2Y1"
+				(at 8.89 1.27 180)
+				(length 3.81)
+				(name "~{2Y1}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -270,9 +294,9 @@
 				)
 			)
 			(pin output line
-				(at 7.62 3.81 180)
-				(length 2.54)
-				(name "2Y0"
+				(at 8.89 3.81 180)
+				(length 3.81)
+				(name "~{2Y0}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -288,8 +312,8 @@
 				)
 			)
 			(pin input line
-				(at -7.62 1.27 0)
-				(length 2.54)
+				(at -8.89 -2.54 0)
+				(length 3.81)
 				(name "2B"
 					(effects
 						(font
@@ -306,8 +330,8 @@
 				)
 			)
 			(pin input line
-				(at -7.62 3.81 0)
-				(length 2.54)
+				(at -8.89 0 0)
+				(length 3.81)
 				(name "2A"
 					(effects
 						(font
@@ -324,8 +348,8 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -3.81 0)
-				(length 2.54)
+				(at -8.89 2.54 0)
+				(length 3.81)
 				(name "2~{G}"
 					(effects
 						(font
@@ -343,9 +367,10 @@
 			)
 		)
 		(symbol "74HC139_2_1"
-			(rectangle
-				(start -5.08 6.35)
-				(end 5.08 -6.35)
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 -6.35) (xy 5.08 6.35) (xy -5.08 5.08)
+				)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -357,8 +382,8 @@
 		)
 		(symbol "74HC139_3_0"
 			(pin power_in line
-				(at 0 -8.89 90)
-				(length 2.54)
+				(at 0 -10.16 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -375,8 +400,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 8.89 270)
-				(length 2.54)
+				(at 0 10.16 270)
+				(length 3.81)
 				(name "V_{CC}"
 					(effects
 						(font
@@ -399,7 +424,7 @@
 				(end 3.81 -6.35)
 				(stroke
 					(width 0.254)
-					(type solid)
+					(type default)
 				)
 				(fill
 					(type background)

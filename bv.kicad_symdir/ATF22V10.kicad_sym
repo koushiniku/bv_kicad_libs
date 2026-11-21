@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -7.366 16.764 0)
+			(at 0 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "ATF22V10"
-			(at -0.254 -7.62 90)
+			(at 0 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-24_W7.62mm"
 			(at 0 -18.796 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87,8 +87,8 @@
 		)
 		(symbol "ATF22V10_0_1"
 			(rectangle
-				(start -7.62 15.24)
-				(end 7.62 -17.78)
+				(start -7.62 16.51)
+				(end 7.62 -16.51)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -99,7 +99,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 13.335) (xy -6.985 12.7) (xy -7.62 12.065)
+					(xy -7.62 14.605) (xy -6.985 13.97) (xy -7.62 13.335)
 				)
 				(stroke
 					(width 0)
@@ -112,8 +112,8 @@
 		)
 		(symbol "ATF22V10_1_0"
 			(pin power_in line
-				(at -10.16 -15.24 0)
-				(length 2.54)
+				(at 0 -20.32 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -130,8 +130,8 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 12.7 180)
-				(length 2.54)
+				(at 0 20.32 270)
+				(length 3.81)
 				(name "V_{CC}"
 					(effects
 						(font
@@ -150,8 +150,8 @@
 		)
 		(symbol "ATF22V10_1_1"
 			(pin input line
-				(at -10.16 12.7 0)
-				(length 2.54)
+				(at -11.43 13.97 0)
+				(length 3.81)
 				(name "I/CLK"
 					(effects
 						(font
@@ -168,8 +168,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 10.16 0)
-				(length 2.54)
+				(at -11.43 11.43 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -187,8 +187,8 @@
 				(alternate "EDIT" input line)
 			)
 			(pin input line
-				(at -10.16 7.62 0)
-				(length 2.54)
+				(at -11.43 8.89 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -206,8 +206,8 @@
 				(alternate "PV" input line)
 			)
 			(pin input line
-				(at -10.16 5.08 0)
-				(length 2.54)
+				(at -11.43 6.35 0)
+				(length 3.81)
 				(name "I/PD"
 					(effects
 						(font
@@ -225,8 +225,8 @@
 				(alternate "RA0" input line)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
-				(length 2.54)
+				(at -11.43 3.81 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -244,8 +244,8 @@
 				(alternate "RA1" input line)
 			)
 			(pin input line
-				(at -10.16 0 0)
-				(length 2.54)
+				(at -11.43 1.27 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -263,8 +263,8 @@
 				(alternate "RA2" input line)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
-				(length 2.54)
+				(at -11.43 -1.27 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -282,8 +282,8 @@
 				(alternate "RA3" input line)
 			)
 			(pin input line
-				(at -10.16 -5.08 0)
-				(length 2.54)
+				(at -11.43 -3.81 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -301,8 +301,8 @@
 				(alternate "RA4" input line)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
-				(length 2.54)
+				(at -11.43 -6.35 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -320,8 +320,8 @@
 				(alternate "RA5" input line)
 			)
 			(pin input line
-				(at -10.16 -10.16 0)
-				(length 2.54)
+				(at -11.43 -8.89 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -339,8 +339,8 @@
 				(alternate "SCLK" input line)
 			)
 			(pin input line
-				(at -10.16 -12.7 0)
-				(length 2.54)
+				(at -11.43 -11.43 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -358,8 +358,8 @@
 				(alternate "DIN" input line)
 			)
 			(pin input line
-				(at 10.16 -15.24 180)
-				(length 2.54)
+				(at -11.43 -13.97 0)
+				(length 3.81)
 				(name "I"
 					(effects
 						(font
@@ -377,8 +377,8 @@
 				(alternate "STR" input line)
 			)
 			(pin bidirectional line
-				(at 10.16 -12.7 180)
-				(length 2.54)
+				(at 11.43 -11.43 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
@@ -396,8 +396,8 @@
 				(alternate "DOUT" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 10.16 -10.16 180)
-				(length 2.54)
+				(at 11.43 -8.89 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
@@ -414,8 +414,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -7.62 180)
-				(length 2.54)
+				(at 11.43 -6.35 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
@@ -432,8 +432,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -5.08 180)
-				(length 2.54)
+				(at 11.43 -3.81 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
@@ -450,8 +450,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -2.54 180)
-				(length 2.54)
+				(at 11.43 -1.27 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
@@ -468,8 +468,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 0 180)
-				(length 2.54)
+				(at 11.43 1.27 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
@@ -486,8 +486,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 2.54 180)
-				(length 2.54)
+				(at 11.43 3.81 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
@@ -504,8 +504,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 5.08 180)
-				(length 2.54)
+				(at 11.43 6.35 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
@@ -522,8 +522,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 7.62 180)
-				(length 2.54)
+				(at 11.43 8.89 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
@@ -540,8 +540,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 10.16 180)
-				(length 2.54)
+				(at 11.43 11.43 180)
+				(length 3.81)
 				(name "I/O"
 					(effects
 						(font
