@@ -1,0 +1,295 @@
+(footprint "Tantalum_Capacitor_KEMET_1206"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Molded Tantalum Capacitor 1206 (3216 Metric)")
+	(tags "kemet 1206 3216 tantalum capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.375 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4cd1870d-5c65-47a2-a7d8-adffc53cbf76")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 1.325 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1003dd21-c7ba-4810-b71b-a75875ff6f6e")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_T2005_T491"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52dc20fe-6f16-4ac5-9456-0a0863ed9c4e")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Description" "Molded Tantalum Capacitor 1206 (3216 Metric)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5a5b82b-2fb3-46bb-8c45-7c9631032f2a")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.225 -0.825)
+		(end -2.225 0.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0557c4a1-a22a-4ca2-87aa-a4a43a87e7a8")
+	)
+	(fp_line
+		(start -2.075 -0.975)
+		(end -0.025 -0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e50eb158-8f55-4943-a24a-59d2552b480c")
+	)
+	(fp_line
+		(start -2.075 0.975)
+		(end -0.025 0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "177816a8-bee0-4c64-9ae2-578a5ba49d81")
+	)
+	(fp_line
+		(start -0.375 -0.8)
+		(end -0.175 -0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86b2f426-62b8-426c-8cf2-1ca63f849cad")
+	)
+	(fp_line
+		(start -0.375 0.8)
+		(end -0.175 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e2490163-de10-4bc1-855d-bad1d8a3285f")
+	)
+	(fp_line
+		(start -0.275 -0.9)
+		(end -0.275 -0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62d2cd62-fde8-4881-8b12-9cb9abaedb92")
+	)
+	(fp_line
+		(start -0.275 0.7)
+		(end -0.275 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "33c55c51-d233-40e7-8327-279e464412ef")
+	)
+	(fp_line
+		(start 2.075 -0.975)
+		(end 0.575 -0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e6fac89a-2b2f-44ec-9b14-3c6ad951654a")
+	)
+	(fp_line
+		(start 2.075 0.975)
+		(end 0.575 0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d0fc333-f292-47e5-9274-763842a2dafb")
+	)
+	(fp_line
+		(start 2.225 -0.825)
+		(end 2.225 0.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e4af5fb1-b12e-4bc9-b7f5-d94f4d5f7a28")
+	)
+	(fp_rect
+		(start -0.375 -0.625)
+		(end -0.1 0.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8e247c28-19cd-4d6b-9f9e-a955f6459350")
+	)
+	(fp_rect
+		(start -0.1 -0.975)
+		(end -0.025 0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cc1d87e9-a7ba-43bb-ba52-4227d3bfda99")
+	)
+	(fp_arc
+		(start -2.225 -0.825)
+		(mid -2.181066 -0.931066)
+		(end -2.075 -0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c9cec5a-f370-41a3-b460-2082c5a4d8aa")
+	)
+	(fp_arc
+		(start -2.075 0.975)
+		(mid -2.181066 0.931066)
+		(end -2.225 0.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7a0dc21a-4398-47b8-83ed-7d0eb3f3489b")
+	)
+	(fp_arc
+		(start 2.075 -0.975)
+		(mid 2.181066 -0.931066)
+		(end 2.225 -0.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c8456765-0728-4861-9af5-6dbbc7fbe3e0")
+	)
+	(fp_arc
+		(start 2.225 0.825)
+		(mid 2.181066 0.931066)
+		(end 2.075 0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "88baf342-6d59-47f4-b193-2089b6840e79")
+	)
+	(fp_rect
+		(start -1.85 -1.05)
+		(end 1.85 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6edf4d1e-662c-4b63-abc0-661f8aabe111")
+	)
+	(fp_rect
+		(start -1.6 -0.8)
+		(end -0.8 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "882af494-76d8-416c-a936-3e2f1bef0962")
+	)
+	(fp_rect
+		(start -1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "daf3a6ca-fdf1-41b0-aa8f-c9aa8f8de0bd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "119e3af9-df1e-4cd5-b6a5-1b84cc0c1688")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.3 0 180)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e51fd72-a98f-4ed0-bb44-2463ff0db57f")
+	)
+	(pad "2" smd rect
+		(at 1.3 0 180)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ba50817-88aa-4a1c-a3fe-3a65e65c6170")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/bv_kicad_libs/bv.3dshapes/T491A106M016AT4380.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
